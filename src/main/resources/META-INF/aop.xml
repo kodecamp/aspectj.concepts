@@ -1,0 +1,9 @@
+<aspectj>
+  <aspects>
+    <!-- <aspect name="in.kodecamp.aspects.aj.LoggingAspect" /> <aspect name="in.kodecamp.aspects.aj.CachingAspect" 
+      /> <aspect name="in.kodecamp.aspects.aj.DebugingAspect" /> -->
+    <weaver options="-verbose -showWeaveInfo">
+      <!-- <include within="in.kodecamp.ShoppingCartService" /> -->
+    </weaver>
+  </aspects>
+</aspectj> 
