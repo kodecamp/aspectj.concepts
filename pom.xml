@@ -10,6 +10,7 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+
   </properties>
   <dependencies>
 
@@ -69,7 +70,7 @@
         </executions>
         <configuration>
           <executable>java</executable>
-          <mainClass>in.kodecamp.test.SecuredClassAspectJDemo</mainClass>
+          <mainClass>in.kodecamp.test.SampleAspectJDemo</mainClass>
           <arguments>
             <argument>-classpath</argument>
           </arguments>
